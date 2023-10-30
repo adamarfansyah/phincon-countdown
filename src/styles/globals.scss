@@ -1,0 +1,15 @@
+@import "./base";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: $familyFont;
+}
+
+body {
+  background: url("../assets/bg-stars.svg");
+  background-color: $Very-dark-most-black;
+}

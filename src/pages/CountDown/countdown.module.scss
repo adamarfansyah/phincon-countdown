@@ -1,0 +1,41 @@
+@import "../../styles/base";
+
+.container {
+  display: flex;
+  justify-content: center;
+  background-color: red;
+  height: 100vh;
+  background: url("../../assets/pattern-hills.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+
+  .wrapper {
+    height: fit-content;
+    margin-top: 100px;
+    text-align: center;
+
+    .title {
+      color: $White;
+      font-family: $familyFont;
+      font-weight: $fontWeight;
+      font-size: $fontSizeTitle;
+      letter-spacing: 5px;
+    }
+  }
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  gap: 50px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  padding: 20px;
+  margin-top: 50px;
+}
